@@ -11,6 +11,7 @@
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module"
+        // "project": "./tsconfig.json" aponta para o arquivo de configuração do TypeScript
     },
     "plugins": [
         "@typescript-eslint"
