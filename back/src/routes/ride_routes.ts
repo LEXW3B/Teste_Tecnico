@@ -1,8 +1,7 @@
 import { Router } from "express";
-import { confirmRide } from "../controllers/ride_controller";
 
 const router = Router();
 
-router.patch("/rides/:id/confirm", confirmRide);
+router.patch("/ride/confirm");
 
-export default router;
+export default router; // PATCH /ride/confirm
